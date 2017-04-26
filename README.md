@@ -1,2 +1,0 @@
-# new-medual
-new medual
