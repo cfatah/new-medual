@@ -1,4 +1,3 @@
-
 body {
   font-size: 16px;
   color: #fff;
@@ -133,7 +132,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile .jpg') no-repeat;
+  background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
@@ -198,7 +197,7 @@ body {
   margin-right: -15px;
 }
 .menu-item-tile .menu-item-price span {
-  font-size: 1em;
+  font-size: .6em;
 }
 .menu-item-photo {
   position: relative;
@@ -233,12 +232,9 @@ h3.menu-item-title {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-.jumbotron {
+  .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
-    box-shadow: 0 0 50px #3F0C1F;
-    border:2px solid #3F0C1F;
-
   }
 }
 
@@ -254,7 +250,7 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-   .jumbotron {
+  .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
@@ -264,7 +260,7 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-   .jumbotron {
+  .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
@@ -337,11 +333,7 @@ h3.menu-item-title {
     width: 360px;
     margin: 0 auto 15px;
   }
-#specials-tile{
 
-
-
-}
   .menu-item-photo {
     margin-right: auto;
   }
@@ -378,6 +370,3 @@ h3.menu-item-title {
     width: 100%;
   }
 }
-
-
-
